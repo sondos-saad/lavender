@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --mainColor1: rgb(180, 142, 38);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:var(--mainColor1);
+    color:rgb(247, 243, 239) ;
+}
+.header{
+   display: flex;
+  width: 100%;
+  height: 10%;
+}
+.logo{
+    width: 50%;
+    padding: 10px;
+}
+.container .header .logo .lav{
+    width: 10%;
+    border-radius: 50%;
+    margin:10px 30px;
+}
+.nav{
+   width: 50%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(247, 243, 239);
+    font-size: 18px;
+    padding: 5px;
+}
+ul li a:hover{
+   background-color:rgb(247, 243, 239);
+    color: var(--mainColor1);
+    border-radius: 30%;
+}
+.section{
+    display: flex;
+    height: 80%;
+    padding: 10px;
+    justify-content: space-around;
+}
+.left{
+    width: 48%;
+border: 1px solid rgb(158, 130, 5);
+padding: 3%;
+border-radius:10px ;
+    margin-top: 5%;
+}
+.left h1{
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-transform:uppercase ;
+text-align: center;
+color: rgb(15, 17, 0);
+}
+p{
+font-size: 22px;
+}
+.one{
+    margin-bottom: 5%;
+    margin-left: 8%;
+}
+.two{
+    margin-left: 24%;
+}
+
+.btn{
+    width: 20%;
+    height: 8%;
+    border: none;
+    border-radius: 10px;
+    color:var(--mainColor1);
+    font-weight: 800;
+    font-size: 18px;
+    margin-left: 40%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.btn:hover{
+color: rgb(15, 17, 0);
+}
+.right{
+    width: 48%;
+    margin-top: 5%;
+}
+.right img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+.footer p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+.section .left .contactUs{
+font-size: 20px;
+padding: 5%;
+margin: 0 0 0 18%;
+}
+.section .left .contactUs a{
+    color: rgb(247, 243, 239);
+    text-decoration: none;
+margin: 0 0 0 2%;
+}
+.section .left .contactUs i{
+    padding: 2%  1% 1%;
+}
+.section .left .contactUs a:hover{
+    color: rgb(15, 17, 0);
+}
